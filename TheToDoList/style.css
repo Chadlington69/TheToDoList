@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.app {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0c0a0a;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #20548b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.delete-button {
+    color: rgb(170, 31, 31);
+    cursor: pointer;
+}
